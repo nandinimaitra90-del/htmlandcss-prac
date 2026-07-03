@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <title>simple website</title>
+        <style>
+            h1 {
+                color: darkred;
+                text-align: center;
+            }
+            body {
+                background-color: goldenrod; font-family: Arial, sans-serif; 
+            }
+            input {
+                margin: 5px;
+                padding: 5px;
+            }
+            input[type="submit"]:hover{
+                border: 2px solid darkred;
+            }
+            input[type="submit"]{
+                background-color: darkred;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+            img{
+                border: 4px solid black;
+                border-radius: 10px;
+                margin: 10px;
+                transition: transform 0.3s ease;
+            }
+            img:hover{
+                border: 4px solid darkred;
+                transform: scale(1.1);
+            }
+            img{
+                box-shadow: 5px 5px 10px black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 id="heading">Create your account</h1>
+<ol>
+    <li>Enter your name</li>
+    <li>Enter your email</li>
+    <li>Create your password</li>
+    <li>Confirm your password</li>
+    <li>Your password should have one uppercase letter, one lowercase letter and its length should be more than 8 characters</li>
+    <li>Then click on the check box(" I agree")</li>
+    <li>Then click on the submit button</li>
+</ol>
+<form actions="form.com"></form>
+<label>Name:</label>
+<input type="text" placeholder="Enter your name">
+<label>Email:</label>
+<input type="email" placeholder="Enter your email">
+<label>Password:</label>
+<input type="password" placeholder="Enter your password">
+<label>Confirm Password:</label>
+<input type="password" placeholder="Confirm your password">
+<label>i agree</label>
+<input type="checkbox">
+<input type="submit" value="Submit">
+<img src="naruto.jpeg" alt="Naruto image" width="200"> 
+<img src="kurama.jpeg" alt="naruto image" width="400">
+<img src="demonslayer.jpeg" alt="tanjirou image" width="400">
+</body>
+</html>
