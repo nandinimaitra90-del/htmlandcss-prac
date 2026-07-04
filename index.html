@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <title>simple website</title>
+        <style>
+            h1 {
+                color: darkred;
+                text-align: center;
+            }
+            body {
+                background-color: goldenrod; font-family: Arial, sans-serif; 
+            }
+            input {
+                margin: 5px;
+                padding: 5px;
+            }
+            input[type="submit"]:hover{
+                border: 2px solid darkred;
+            }
+            input[type="submit"]{
+                background-color: darkred;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                cursor: pointer;
+            }
+            .form-container {
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                width: 300px;
+                position: relative;
+                left: 500px;
+            }
+            input:hover {
+                border: 2px solid darkred;
+                background-color: lightyellow;
+                padding: 6px;
+                border-radius: 5px;            
+            }
+            input:focus{
+                border: 2px solid darkred; 
+            }
+            button:hover{
+                background-color: darkred;
+                color: white;
+            }                
+            ol{
+                width: fit-content;
+                margin: auto;}
+            nav{
+                background-color: black;
+                display: flex; 
+                padding: 10px;
+            }
+            nav a{
+                color: white;
+                text-decoration: none;
+                margin-right: 20px;
+              }
+            nav a:hover{
+                color: yellow;
+            }
+    </style>
+    </head>
+    <body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="form.html">Form</a>
+</nav>   
+      <h1 id="heading">Create your account</h1> 
+<ol>
+    <li>Enter your name</li>
+    <li>Enter your email</li>
+    <li>Create your password</li>
+    <li>Confirm your password</li>
+    <li>Your password should have one uppercase letter, one lowercase letter and its length should be more than 8 characters</li>
+    <li>Then click on the check box(" I agree")</li>
+    <li>Then click on the submit button</li>
+</ol>
+<div class="form-container">
+    <form action="form.com" method="post">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password">
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Confirm your password">
+        <label>i agree</label>
+        <input type="checkbox">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+<footer>
+    Made by Nandini
+</footer>
+</html>
